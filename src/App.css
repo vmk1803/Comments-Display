@@ -10,14 +10,16 @@
 .comment {
   /* border: 1px solid red; */
   /* border-left: 1px solid red; */
+  /* margin-top: 30px; */
   margin-bottom: 30px;
   padding-left: 5px;
-  height: 120px;
+  height: 160px;
   overflow: hidden;
 }
 .commentSection {
   display: flex;
   vertical-align: bottom;
+  margin-top: 40px;
 }
 
 .sideBar {
@@ -51,4 +53,11 @@
   /* border-left: 1px solid red; */
   margin-bottom: 30px;
   padding-left: 5px;
+}
+
+.replyTag {
+  cursor: pointer;
+}
+.reply-box {
+  margin: 10px;
 }
